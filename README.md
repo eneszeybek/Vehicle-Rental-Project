@@ -110,23 +110,28 @@ CUSTOMER, CORPORATE → Kiralama yapabilir, araçları filtreleyebilir, geçmiş
 
 📁 Proje Yapısı
 
-├── main
-│   └── App.java
-├── model
-│   ├── User.java
-│   ├── Vehicle.java
-│   ├── Rental.java
-│   └── enums
-│       ├── Role.java
-│       ├── DurationType.java
-│       └── VehicleType.java
-├── dao
-│   ├── UserDao.java
-│   ├── VehicleDao.java
-│   └── RentalDao.java
-├── service
-│   ├── AuthService.java
-│   ├── VehicleService.java
-│   └── RentalService.java
-└── util
-    └── PasswordUtil.java
+```
+src/
+└── main/
+    └── java/
+        ├── main/
+        │   └── App.java
+        ├── model/
+        │   ├── User.java
+        │   ├── Vehicle.java
+        │   ├── Rental.java
+        │   └── enums/
+        │       ├── Role.java
+        │       ├── DurationType.java
+        │       └── VehicleType.java
+        ├── dao/
+        │   ├── UserDao.java
+        │   ├── VehicleDao.java
+        │   └── RentalDao.java
+        ├── service/
+        │   ├── AuthService.java
+        │   ├── VehicleService.java
+        │   └── RentalService.java
+        └── util/
+            └── PasswordUtil.java
+```
