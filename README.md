@@ -38,10 +38,13 @@ Maven (bağımlılık yönetimi)
 
 PostgreSQL Veritabanı Oluştur:
 
+```java
 CREATE DATABASE vehicle_rental;
+```
 
 Tabloları Oluştur:
 
+```java
 -- Kullanıcılar tablosu
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
@@ -72,6 +75,7 @@ CREATE TABLE rentals (
     duration_type VARCHAR(20) NOT NULL,
     deposit NUMERIC(15, 2) NOT NULL
 );
+```
 
 ⚠️ Veritabanı Bağlantı Ayarı
 
@@ -79,6 +83,7 @@ CREATE TABLE rentals (
 
 ```java
 DriverManager.getConnection("jdbc:postgresql://localhost:5432/vehicle_rental", "postgres", "1234");
+```
 
 🧪 Admin Giriş Bilgileri
 
@@ -87,6 +92,7 @@ DriverManager.getConnection("jdbc:postgresql://localhost:5432/vehicle_rental", "
 ```java
 private static final String ADMIN_EMAIL = "admin";
 private static final String ADMIN_PASSWORD = "admin";
+```
 
 🔐 Kurallar ve Koşullar
 
