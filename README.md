@@ -94,6 +94,8 @@ private static final String ADMIN_EMAIL = "admin";
 private static final String ADMIN_PASSWORD = "admin";
 ```
 
+Kullanıcı girişi kısmından bu bilgilerle giriş yaptığınızda admin arayüzüne bağlanacaksınız.
+
 🔐 Kurallar ve Koşullar
 
 Kurumsal kullanıcılar sadece aylık kiralama yapabilir.
